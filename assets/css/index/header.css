@@ -1,0 +1,189 @@
+body {
+    background: #F3F8FB;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #5BC4BF;
+    box-shadow: 5px 0 5px #000000c0;
+}
+
+.cabecalho .container_logo_nav {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    gap: 100px;
+    font-size: 16pt;
+}
+
+.cabecalho .container_logo_nav .__logo_ec {
+    width: 110px;
+    margin-left: 15px;
+}
+
+.cabecalho .container_logo_nav .__navegacao {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+
+.cabecalho .container_logo_nav .__navegacao .__btns {
+    cursor: pointer;
+}
+
+.cabecalho .container_logo_nav .__navegacao .__options_domicilio {
+    background: #fff;
+    border-radius: 5px;
+    display: none;
+    box-shadow: 0 999999px 0 999999px #00000048;
+
+    position: absolute;
+    top: 60px;
+    margin-left: -5px;
+}
+
+.cabecalho .container_logo_nav .__navegacao .__options_morador {
+    background: #fff;
+    border-radius: 5px;
+    display: none;
+    box-shadow: 0 999999px 0 999999px #00000048;
+
+    position: absolute;
+    top: 60px;
+    left: 380px;
+}
+
+.cabecalho .container_logo_nav .__navegacao .__options_morador a {
+    text-decoration: none;
+}
+.cabecalho .container_logo_nav .__navegacao .__options_domicilio a {
+    text-decoration: none;
+}
+
+.cabecalho .container_logo_nav .__navegacao .__options_domicilio .__dis, .__options_morador .__dis {
+    color: #5BC4BF;
+    border-bottom: 1px solid #00000022;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.cabecalho .container_logo_nav .__navegacao .__options_domicilio .__des, .__options_morador .__des {
+    color: #5BC4BF;
+    border-bottom: 1px solid #00000022;
+    padding: 5px 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.cabecalho .container_pesquisa_perfil {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.cabecalho .container_pesquisa_perfil .__pesquisa {
+    background: #007E7A;
+    height: 30px;
+    display: flex;
+    border-radius: 13px;
+    padding: 0 15px;
+}
+
+.cabecalho .container_pesquisa_perfil .__pesquisa .__input_pesquisa {
+    background: none;
+    border: none;
+    outline: none;
+    color: #fff;
+}
+.cabecalho .container_pesquisa_perfil .__pesquisa .__input_pesquisa::placeholder {
+    color: #fff;
+}
+
+.cabecalho .container_pesquisa_perfil .__pesquisa .__btn_pesquisa {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho .container_pesquisa_perfil .__pesquisa .__btn_pesquisa .__img_btn {
+    width: 20px;
+}
+
+
+/* perfil */
+.__perfil {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-right: 10px;
+    background: #00000051;
+}
+
+.__perfil .__foto_perfil {
+    background: #e8e8e8;
+    padding: 5px;
+    margin: 10px;
+}
+
+.__perfil .__foto_perfil .__foto_do_usuario {
+    width: 30px;
+    filter: invert(55%);
+}
+
+.__perfil .__icone_tres_p {
+    width: 30px;
+    height: 30px;
+    filter: invert(100%);
+    cursor: pointer;
+}
+
+/* options do perfil */
+
+.__perfil .__container_options_perfil {
+    position: absolute;
+    top: 100px;
+    right: 50px;
+    display: none;
+
+    background: #fff;
+    border-radius: 5px;
+    padding: 10px 0;
+    box-shadow: 0 9464px 0 9500px #00000048;
+}
+
+.__perfil .__container_options_perfil .__grupo_nome_img {
+    display: flex;
+    gap: 40px;
+    border-bottom: 1px solid #5BC4BF;
+}
+
+.__perfil .__container_options_perfil .__grupo_nome_img .__foto_perfil {
+    box-shadow: 1px 3px 3px #00000057;
+}
+
+.__perfil .__container_options_perfil .__grupo_nome_img .__nome_e_usuario {
+    padding: 10px;
+}
+
+.__perfil .__container_options_perfil .__grupo_nome_img .__nome_e_usuario .__usuario {
+    font-size: 9pt;
+}
+
+.__perfil .__container_options_perfil .__grupo_options {
+    list-style: none;
+    padding: 15px;
+}
+
+.__perfil .__container_options_perfil .__grupo_options .__btn_option {
+    margin-bottom: 5px;
+    cursor: pointer;
+    color: #007E7A;
+}
+.__perfil .__container_options_perfil .__grupo_options .__btn_option:hover {
+    color: #000;
+}

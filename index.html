@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/index/header.css">
+    <link rel="stylesheet" href="assets/css/index/main.css">
+</head>
+<body>
+
+    <header class="cabecalho">
+        <div class="container_logo_nav">
+            <img class="__logo_ec" src="assets/img/EC_vti.png" alt="Logo da estação conhecimento">
+
+            <ul class="__navegacao">
+                <li class="__btns __domicilio" title="Domicílios">Domicílios</li>
+                <div class="__options_domicilio">
+                    <a href="#"><p class="__dis">Domicílio</p></a>
+                    <a href="#"><p class="__des">Novo <br> Domicílio</p></a>
+                </div>
+
+                <li class="__btns __moradores" title="Moradores">Moradores</li>
+                <div class="__options_morador">
+                    <a href="#"><p class="__dis">Morador</p></a>
+                    <a href="#"><p class="__des">Novo <br> Morador</p></a>
+                </div>
+
+                <li class="__btns" title="Relatórios">Relatórios</li> 
+            </ul>
+        </div>
+
+        <div class="container_pesquisa_perfil">
+            <form class="__pesquisa" method="post">
+                <input type="text" class="__input_pesquisa" name="pesquisa" placeholder="Pesquisa" autocomplete="off">
+                <button type="submit" class="__btn_pesquisa" name="submit"><img class="__img_btn" src="assets/img/Vector.png"></button>
+            </form>
+            
+            <div class="__perfil">
+                <div class="__foto_perfil">
+                    <img class="__foto_do_usuario" onclick="teste()" src="assets/img/perfil.png">
+                </div>
+                <img onclick="onClick()" class="__icone_tres_p" src="assets/img/tres-pontos.png">
+
+                <div class="__container_options_perfil">
+                    <div class="__grupo_nome_img">
+                        <div class="__nome_e_usuario">
+                            <p class="__nome">Nome</p>
+                            <p class="__usuario">Usuario</p>
+                        </div>
+
+                        <div class="__foto_perfil">
+                            <img class="__foto_do_usuario" src="assets/img/perfil.png">
+                        </div>
+                    </div>
+
+                    <ul class="__grupo_options">
+                        <li class="__btn_option">Perfil</li>
+                        <li class="__btn_option">Configurações</li>
+                        <li class="__btn_option">Sair</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+        <div class="container_qtd_dados">
+            <div class="__bloco">
+                <p class="__qtd">1200</p>
+                <p class="__nome">Moradores</p>
+            </div>
+
+            <div class="__bloco">
+                <p class="__qtd">300</p>
+                <p class="__nome">Domicílios</p>
+            </div>
+
+            <div class="__bloco">
+                <p class="__qtd"></p>
+                <p class="__nome"></p>
+            </div>
+
+            <div class="__bloco">
+                <p class="__qtd"></p>
+                <p class="__nome"></p>
+            </div>
+        </div>
+
+        <div class="container_infos">
+            <div class="__bloco">
+                
+            </div>
+
+            <div class="__bloco">
+
+            </div>
+        </div>
+    </main>
+
+
+    <footer class="rodape">
+        <p class="__txt_direitos">© 2023 Estação Conhecimento Arari - Todos os Direitos Reservados</p>
+    </footer>
+    
+    <script src="assets/scripts/header.js"></script>
+</body>
+</html>

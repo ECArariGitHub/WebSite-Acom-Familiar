@@ -1,0 +1,41 @@
+.container_qtd_dados {
+    display: flex;
+    margin: 0px 200px;
+    padding: 50px 0;
+    gap: 15px;
+}
+
+.container_qtd_dados .__bloco {
+    background: #5BC4BF;
+    width: 200px;
+    height: 60px;
+    padding: 15px;
+    border-radius: 5px;
+    color: #fff;
+    text-shadow: 1px 2px 3px #0000002c;
+}
+
+.container_qtd_dados .__bloco .__qtd {
+    font-size: 30pt;
+}
+
+.container_qtd_dados .__bloco .__nome {
+    text-align: end;
+}
+
+
+/**/
+
+.container_infos {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 150px;
+    gap: 20px;
+}
+
+.container_infos .__bloco {
+    background: #fff;
+    height: 400px;
+    width: 460px;
+    border-radius: 5px;
+}
